@@ -1,0 +1,66 @@
+hmtl{
+    font-family: "Manrope" , sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+
+.frase{
+    color: hsl(193, 38%, 86%);
+    font-size: 30px;
+    padding: 23px;
+    text-align: center;
+}
+
+.numeracao{
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+}
+
+.cartao picture img{
+    width: 100%;
+}
+
+.btn{
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    transform: translateY(85%)
+}
+
+.cartao .btn:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
